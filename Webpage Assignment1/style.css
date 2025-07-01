@@ -1,0 +1,237 @@
+
+   /*Homepage*/
+    body{
+      background-color:rgb(225, 214, 201);
+      font-style: italic;
+    }
+    
+    .navbar{
+         list-style: none;
+         text-align: center;   
+         background-color:  #ad9696;
+         padding: 15px 0;
+         margin: 0;
+         border-color: rgb(218, 204, 183);
+         border-radius: 20px;
+         border-style: inset;
+       }
+       .navbar li {
+        display: inline-block;
+         margin: 0 20px;
+       }
+       .navbar a,li {
+        color:#562e2e ;
+        font-weight: bold;
+        text-decoration: none;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 18px;
+         font-style: italic;
+       }
+      #open{
+       
+        font-size: 30px;
+
+      }
+       h1{
+        font-size: 35px;
+        color: #562e2e;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-family: "Emilys Candy" ;
+        
+       }
+       h4,h3{
+        font-size: 25px;
+        color: brown;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+       }
+
+     .images{
+     text-align: center;
+     margin-top: 20px;   
+     }
+   
+    .images div{
+      display: inline-block;
+      width: 200px;
+      background-color: #a58e8e;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      vertical-align: top;
+    }
+    .images p{
+      margin-top: 10px;
+      font-size: 16px;
+      color: rgb(37, 36, 36);
+      font-weight: bold;
+    }
+    .art{
+      width: 90%;
+      margin: 40px auto;
+    }
+    .art::after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .discover{
+     float: right;
+     width: 45%;
+      background-color: #ce8f8f;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: left;
+     box-sizing: border-box;
+    }
+    .discover h2{
+      font-size: 30px;
+        color: black;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .discover p{
+     line-height: 1.6;
+      font-size: 16px;
+      color: black;
+      font-style: italic;
+    }
+  .youtube{
+    float: left;
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .youtube h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #562e2e;
+  }
+  iframe{
+    width: 100%;
+    height: 315px;
+    border: 4px solid #a58e8e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  footer{
+    background-color: #ad9696;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color:#562e2e ;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+  }
+  footer a{
+    color:#562e2e ;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+
+ @keyframes flash{
+   0% {background-color: rgb(232, 232, 175)}
+   50% {background-color: transparent}
+   100% {background-color: rgb(232, 232, 175)}
+  }
+  .highlight{
+    animation: flash 1s ease-in-out 2;
+    border-radius: 10px;
+  }
+  /*Signup page*/
+  .body{
+    background-image: url(images/coverb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  .welcome{
+    text-align: center;
+  }
+  .forming{
+    color: white;
+    background-color: rgb(110, 62, 62);
+    border-color: bisque;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 15px 15px 0 0;
+  }
+  .forming input{
+    margin-bottom: 0.5%;
+  }
+  .button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: burlywood;
+    color: black;
+  }
+  .button:hover{
+    background-color: blanchedalmond;
+  }
+  #colorButton{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(110, 62, 62);
+    color: white;
+  }
+  #colorButton:hover{
+    background-color: rgb(148, 97, 97);
+  }
+  select{
+    color: #4b2525;
+    background-color:  #a58e8e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+  }
+  /*Contact us*/
+  .heart{
+     background-image: url(images/page.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .love{
+    text-align: center;
+  }
+  .form{
+    color: white;
+    text-align: center;
+    height: auto;
+    background-color: rgb(110, 62, 62);
+    border-color: bisque;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 15px 15px 0 0;
+  }
+  .map{
+    text-align: center;
+    border-style: groove;
+  }
