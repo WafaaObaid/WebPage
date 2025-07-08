@@ -8,7 +8,6 @@ if(!isNaN(userAge)){
     alert("You are eligible to sign up.");
    }else{
     alert("You must be at least 18 years old to sign up.");
-    /*في هذا السطر لن يستطيع المستخدم تسجيل الدخول و سينتقل تلقائي الى الصفحة الرئيسية لمنعه من التسجيل*/
      window.location.href = "Homepage.html"; 
    }
 }else{
