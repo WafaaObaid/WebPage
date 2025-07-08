@@ -21,11 +21,9 @@
     console.log(paintingNames[i]);
  }
  /*5. Basic Operators*/
- /*رح اعمل المطلوب الخامس على انه الرقم يلي بطلع بالعمليات الحسابية هو 
- رقم لخصم فاز به الزائر لأي لوحة يختارها*/
  
  var price=150;
- var specialNumber = 90; /*رقم الخصم*/
+ var specialNumber = 90; 
   var difference = price - specialNumber; 
   var sum = price + specialNumber;
   var product= price*specialNumber;
@@ -50,15 +48,14 @@
 
 
 /*A special addition from me*/
- /*عندما يختار الزائر خبار من قائمة اللوحات الصفحة رح توديه للوحة*/
-document.addEventListener("DOMContentLoaded", function () { /* هذا السطر يعني استنى الصفحة تحمل بعدين نفذ الحدث*/
-  var select = document.getElementById("paint"); /*بننشئ متغير سيليكت بنخون فيه كلمة بينت */
-  select.addEventListener("change", function () { /*لما المستخدم يغير الخيار المختار بنفذ الكود*/
-    var targetId = this.value; /*بننشئ متغير لربط بين الصورة و العنصر المختار*/
+document.addEventListener("DOMContentLoaded", function () { 
+  var select = document.getElementById("paint"); 
+  select.addEventListener("change", function () { 
+    var targetId = this.value; 
     if (targetId) {
-      var targetElement = document.querySelector(targetId); /*بدنا نجيب العنصر الي اله اي دي نفس المتغير تارغيت*/
+      var targetElement = document.querySelector(targetId); 
       if (targetElement) {
-        targetElement.scrollIntoView({ behavior: "smooth" }); /*استخدمت دالة بتخلي التنقل لصورة سهل*/
+        targetElement.scrollIntoView({ behavior: "smooth" }); 
         targetElement.classList.add("highlight");
          setTimeout(() => {
           targetElement.classList.remove("highlight");
